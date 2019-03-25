@@ -1,0 +1,81 @@
+.wrapper {
+    width: 500px;
+    margin: 0 auto;
+    font-family: Arial;justify-content: center;
+}
+.btn {
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    text-transform: uppercase;
+    color: darkcyan;
+    border: 1px solid darkcyan;
+    padding: 15px 20px;
+    margin: 20px 130px;
+    cursor: pointer;
+    flex-direction:row;
+}
+
+.popup {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    background-color: darkcyan;
+    color: whitesmoke;
+    padding: 30px;
+    position: relative;
+    transition: .5s all;
+    top: -1999px;
+}
+
+.popup input {
+    display: block;
+    width: 100%;
+    border: none;
+    height: 25px;
+    line-height: 25px;
+    margin: 10px 0;
+}
+.submit {
+    background-color: #fff;
+    cursor: pointer;
+}
+
+#modal1 {
+    display: none;
+}
+
+#modal1:checked ~ .popup {
+    top: 0;
+}
+
+.close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    transform: rotate(45deg);
+    font-size: 24px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:480px) {
+    .popup {
+        top: -5999px;
+    }
+}
+
+
+@media screen and (min-width:481px)
+and (max-width: 798px) {
+    .popup {
+        top: -4999px;
+    }
+}
+
+
+
+
+
+
+
+

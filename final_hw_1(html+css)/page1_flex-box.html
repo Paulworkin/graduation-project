@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>flex-box</title>
+    <link rel="stylesheet" href="css/page1_flex-box.css">
+    <link rel="stylesheet" href="css/page1_modal.css">
+</head>
+<body>
+    <div class="border flex-row flex-container">
+        <nav id="bcmenu" class="flex-row flex-1 flex-container">
+                <div class="padding">
+                    <a href="page1_flex-box.html"><strong><i>ГЛАВНАЯ</i></strong></a>
+                    <div class="dropdown1">
+                        <div class="padding"><a href="#"><strong><i>Команда</i></strong></a></div>
+                        <div class="padding"><a href="#"><strong><i>Достижения</i></strong></a></div>
+                        <div class="padding"><a href="#"><strong><i>Планы</i></strong></a></div>
+                    </div>
+                </div>
+
+                <div class="padding">
+                    <a href="#"><strong><i>О НАС</i></strong></a>
+                    <div class="dropdown2">
+                        <div class="padding"><a href="#"><strong><i>Миссия</i></strong></a></div>
+                        <div class="padding"><a href="#"><strong><i>История</i></strong></a></div>
+                        <div class="padding"><a href="#"><strong><i>Преимущества</i></strong></a></div>
+                    </div>
+                </div>
+
+                <div class="padding">
+                    <a href="page3_order.html"><strong><i>ЗАКАЗАТЬ</i></strong></a>
+                    <!--<div class="dropdown3">-->
+                        <!--<div class="padding"><a href="#"><strong><i>Торты</i></strong></a></div>-->
+                        <!--<div class="padding"><a href="#"><strong><i>Капкейки</i></strong></a></div>-->
+                        <!--<div class="padding"><a href="#"><strong><i>Чизкейки</i></strong></a></div>-->
+                        <!--<div class="padding"><a href="#"><strong><i>Выпечка</i></strong></a></div>-->
+                    <!--</div>-->
+                </div>
+
+                <div class="padding">
+                    <a href="#"><strong><i>ОТЗЫВЫ</i></strong></a>
+                    <div class="dropdown4">
+                        <div class="padding"><a href="#"><strong><i>Торты</i></strong></a></div>
+                        <div class="padding"><a href="#"><strong><i>Капкейки</i></strong></a></div>
+                        <div class="padding"><a href="#"><strong><i>Чизкейки</i></strong></a></div>
+                        <div class="padding"><a href="#"><strong><i>Выпечка</i></strong></a></div>
+                    </div>
+                </div>
+                <div class="padding">
+                    <a href="#"><strong><i>КОНТАКТЫ</i></strong></a>
+                </div>
+                <div class="padding">
+                        <a href="#"><strong><i>РЕЦЕПТЫ</i></strong></a>
+                    <div class="dropdown5">
+                        <div class="padding"><a href="#"><strong><i>Торты</i></strong></a></div>
+                        <div class="padding"><a href="#"><strong><i>Капкейки</i></strong></a></div>
+                        <div class="padding"><a href="#"><strong><i>Чизкейки</i></strong></a></div>
+                        <div class="padding"><a href="#"><strong><i>Выпечка</i></strong></a></div>
+                    </div>
+                </div>
+        </nav>
+    </div>
+
+        <div id="logotype" class="flex-row flex-1 flex-container">
+          <h1><a href="page1_flex-box.html"><strong><i>Anna cakes</i></strong></a></h1>
+        </div>
+
+        <div id="menu" class="border flex-row flex-1 flex-container">
+            <div class="flex-row flex-direction flex-container part">
+                <div>
+                    <p align="center"><a href="page2_cakes.html"><i>Торты</i></a></p>
+                    <div class="flex-row">
+                        <a href="page2_cakes.html"><img width="350" height="350" src="image/main_menu/picnic.jpg"></a>
+                    </div>
+                </div>
+                    <div>
+                        <p align="center"><i>Капкейки</i></p>
+                        <div class="flex-row">
+                            <img width="350" height="350" src="image/main_menu/cupcakes.jpg">
+                        </div>
+                    </div>
+                        <div>
+                            <p align="center"><i>Чизкейки</i></p>
+                            <div >
+                                <img width="350" height="350" src="image/main_menu/cheese.jpg">
+                            </div>
+                        </div>
+                            <div>
+                                <p align="center"><i>Выпечка</i></p>
+                                <div class="flex-row">
+                                    <img width="350" height="350" src="image/main_menu/bakery.jpg">
+                                </div>
+                            </div>
+            </div>
+        </div>
+
+        <div id="footer1" class="flex-row flex-1">
+            <div class="flex-row place1 flex-1">
+                    <a href="#"><img class="social" src="image/main_menu/vkontakte.png"></a>
+            </div>
+            <div class="flex-row place2 flex-1">
+                <a href="#"><img class="social" src="image/main_menu/insta.png"></a>
+            </div>
+        </div>
+
+    <div id="footer2" class="flex-row flex-container">
+        <div class="wrapper">
+            <input type="checkbox" id="modal1">
+                <label class="btn" for="modal1">Заказать звонок</label>
+
+                <form action="" class="popup flex-row">
+                    <span>Введите ваши данные</span>
+                    <input type="text" required placeholder="Имя">
+                    <input type="text"required placeholder="Телефон">
+                    <input type="submit" class="submit">
+                    <label class="close" for="modal1">+</label>
+                </form>
+            </input>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,383 @@
+.margin {
+    margin: 0;
+    padding: 0;
+}
+
+.border {
+    border: 0.5px solid silver;
+}
+
+.flex-row {
+    display: flex;
+}
+
+.padding {
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.flex-1 {
+    flex: 100%;
+}
+
+#bcmenu {
+    justify-content: space-between;
+    background-image: url(../image/background/background_img2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    height: 60px;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+div>a:hover {
+    background: gray;
+}
+
+
+.dropdown1 {
+    position: absolute;
+    top: 55px;
+    flex-direction:row;
+    display: none;
+    background-image: url(../image/background/background_img2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+
+}
+
+.dropdown2 {
+    position: absolute;
+    top: 55px;
+    flex-direction:row;
+    display: none;
+    background-image: url(../image/background/background_img2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+/*.dropdown3 {*/
+/*position: absolute;*/
+/*top: 55px;*/
+/*flex-direction:row;*/
+/*display: none;*/
+/*background-image: url(../image/background/background_img2.jpg);*/
+/*background-repeat: no-repeat;*/
+/*background-position: center;*/
+/*background-size: 100% 100%;*/
+/*}*/
+.dropdown4 {
+    position: absolute;
+    top: 55px;
+    flex-direction:row;
+    display: none;
+    background-image: url(../image/background/background_img2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.dropdown5 {
+    position: absolute;
+    top: 55px;
+    flex-direction:row;
+    display: none;
+    background-image: url(../image/background/background_img2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+#bcmenu div:hover .dropdown1 {
+    display: block;
+    justify-content: space-between;
+    margin-left: -51px;
+
+}
+
+#bcmenu div:hover .dropdown2 {
+    display: block;
+    justify-content: space-between;
+    margin-left: -51px;
+}
+
+/*#bcmenu div:hover .dropdown3 {*/
+/*display: block;*/
+/*justify-content: space-between;*/
+/*margin-left: -51px;*/
+}
+#bcmenu div:hover .dropdown4 {
+    display: block;
+    justify-content: space-between;
+    margin-left: -51px;
+}
+#bcmenu div:hover .dropdown5 {
+    display: block;
+    justify-content: space-between;
+    margin-left: -51px;
+    padding-right: 20px;
+}
+
+#logotype {
+    font-size: 32px;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+#logotype2 {
+    font-size: 22px;
+    justify-content: center;
+    margin-top: -50px;
+}
+
+.flex-direction {
+    flex-direction: column;
+}
+
+div.headline {
+    justify-content: center;
+}
+
+
+.cake_сarrot1 {
+    background-image: url(../image/cake/cake_carrot1.jpg);
+    width: 900px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.cake_сarrot2 {
+    background-image: url(../image/cake/cake_carrot2.jpg);
+    width: 900px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.cake_сarrot_classic1 {
+    background-image: url(../image/cake/cake_сarrot_classic1.jpg);
+    width: 900px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.cake_сarrot_classic2 {
+    background-image: url(../image/cake/cake_сarrot_classic2.jpg);
+    width: 900px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.cake_rafaello1 {
+    background-image: url(../image/cake/cake_rafaello1.jpg);
+    width: 900px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.cake_rafaello2 {
+    background-image: url(../image/cake/cake_rafaello2.jpg);
+    width: 900px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.cake_honey1 {
+    background-image: url(../image/cake/cake_honey1.jpg);
+    width: 900px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.cake_honey2 {
+    background-image: url(../image/cake/cake_honey2.jpg);
+    width: 900px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.cake_napoleon1 {
+    background-image: url(../image/cake/cake_napoleon1.jpg);
+    width: 900px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.cake_picnic1 {
+    background-image: url(../image/cake/cake_picnic1.jpg);
+    width: 900px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.cake_picnic2 {
+    background-image: url(../image/cake/cake_picnic2.jpg);
+    width: 900px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.cake_number1 {
+    background-image: url(../image/cake/cake_number1.jpg);
+    width: 900px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.cake_number2 {
+    background-image: url(../image/cake/cake_number2.jpg);
+    width: 900px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.cake_exotic1 {
+    background-image: url(../image/cake/exotic1.jpg);
+    width: 900px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.cake_exotic2 {
+    background-image: url(../image/cake/exotic2.jpg);
+    width: 900px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+    @media screen and (max-width:480px) {
+
+        body {
+            font-size: 1.05em;
+        }
+        .cake_сarrot1, .cake_сarrot2, .cake_сarrot_classic1, .cake_сarrot_classic2, .cake_rafaello1, .cake_rafaello2,
+        .cake_honey1, .cake_honey2, .cake_napoleon1, .cake_picnic1, .cake_picnic2, .cake_number1, .cake_number2,
+        .cake_exotic1, .cake_exotic2
+        {
+            width: 100%;
+        }
+
+        #logotype {
+            margin-top: 110px;
+        }
+        #bcmenu {
+            justify-content: center;
+            align-items: stretch;
+            background-image: url(../image/background/background_img2.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100% 100%;
+            height: 270px;
+            font-size: 16px;
+        }
+
+        .flex-container {
+            flex-direction: column;
+        }
+
+    }
+
+    @media screen and (min-width:481px)
+    and (max-width: 798px) {
+
+        body {
+            font-size: 1.05em;
+        }
+
+        .flex-container {
+            flex-direction: column;
+        }
+        #bcmenu {
+            flex-direction: row;
+            justify-content: center;
+        }
+        .cake_сarrot1, .cake_сarrot2, .cake_сarrot_classic1, .cake_сarrot_classic2, .cake_rafaello1, .cake_rafaello2,
+        .cake_honey1, .cake_honey2, .cake_napoleon1, .cake_picnic1, .cake_picnic2, .cake_number1, .cake_number2,
+        .cake_exotic1, .cake_exotic2
+        {
+            width: 100%;
+        }
+        .padding {
+            padding-left: 0;
+        }
+
+    }
+
+    @media screen and (min-width: 799px)
+    and (max-width: 960px) {
+
+            body {
+                font-size: 1.05em;
+            }
+
+            .flex-container {
+                flex-direction: column;
+            }
+
+            #bcmenu {
+                flex-direction: row;
+                justify-content: center;
+            }
+
+            .cake_сarrot1, .cake_сarrot2, .cake_сarrot_classic1, .cake_сarrot_classic2, .cake_rafaello1, .cake_rafaello2,
+            .cake_honey1, .cake_honey2, .cake_napoleon1, .cake_picnic1, .cake_picnic2, .cake_number1, .cake_number2,
+            .cake_exotic1, .cake_exotic2
+            {
+                width: 100%;
+            }
+
+            .padding {
+                padding-left: 0;
+            }
+    }
+
+    @media screen and (min-width: 961px)
+    and (max-width: 1200px) {
+
+        .flex-container {
+            flex-direction: column;
+        }
+
+        #bcmenu {
+            flex-direction: row;
+            justify-content: center;
+            flex: 100%;
+        }
+
+        .cake_сarrot1, .cake_сarrot2, .cake_сarrot_classic1, .cake_сarrot_classic2, .cake_rafaello1, .cake_rafaello2,
+        .cake_honey1, .cake_honey2, .cake_napoleon1, .cake_picnic1, .cake_picnic2, .cake_number1, .cake_number2,
+        .cake_exotic1, .cake_exotic2
+        {
+            width: 100%;
+        }
+        .padding {
+            padding-left: 0;
+        }
+    }
