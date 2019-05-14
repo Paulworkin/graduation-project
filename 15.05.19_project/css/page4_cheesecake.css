@@ -1,0 +1,274 @@
+@import url("page4_modal.css");
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.border {
+    border: 1px solid silver;
+}
+
+.menu1 {
+    display: flex;
+    flex: 100%;
+    height: 60px;
+    font-size: 20px;
+    justify-content: space-around;
+    list-style-type: none;
+    position: relative;
+    align-items: center;
+    background-image: url(../image/background/background_img2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.dropdown1 {
+    border: 0.1px solid silver;
+    display: none;
+    list-style-type: none;
+    position: absolute;
+    left: 400px;
+    background-image: url(../image/background/background_img2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.dropdown2 {
+    border: 0.01px solid silver;
+    display: none;
+    list-style-type: none;
+    position: absolute;
+    right: 115px;
+    background-image: url(../image/background/background_img2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.menu1 li:hover .dropdown1 {
+    display: block;
+    margin-top: 20px;
+}
+
+.menu1 li:hover .dropdown2 {
+    display: block;
+    margin-top: 20px;
+}
+
+li>a:hover {
+    background: gray;
+}
+
+li.padding {
+    border: 0.1px solid silver;
+    padding: 7px 20px;
+}
+li.padding_for_dropdown {
+    padding: 22px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.logotype {
+    display: flex;
+    flex: 1;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+h1 {
+    margin-top: 100px;
+}
+
+.logotype2 {
+    display: flex;
+    font-size: 22px;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: -100px;
+}
+
+.menu2 {
+    display: flex;
+    flex-direction: column;
+    flex: 100%;
+}
+.cake1 {
+    display: flex;
+}
+
+.description {
+    display: flex;
+    flex: 100%;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.margin_description {
+    margin-top: 50px;
+}
+.padding2 {
+    padding-left: 20px;
+}
+
+.cheese_classicNY {
+    display: flex;
+    justify-content: center;
+
+}
+
+.cheese_blueberries1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.cheese_exotic1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.background {
+    display: flex;
+    background-image: url(../image/background/background_img2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    flex-direction: column;
+}
+a.vkontakte, a.instagram {
+    display: flex;
+    padding: 5px;
+}
+
+.footer > a > img {
+    border-radius: 10px;
+}
+
+div.menu2 {
+    border: none;
+    margin-top: 10px;
+}
+
+
+
+@media screen and (max-width:480px) {
+
+    body {
+        font-size: 1.1em;
+    }
+    .cheese_classicNY img, .cheese_blueberries1 img, .cheese_exotic1 img
+    {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .menu1 {
+        height:auto;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+    }
+
+    ul.dropdown1 {
+        top: 45px;
+        left: 130px;
+    }
+    ul.dropdown2 {
+        top: 45px;
+        left: 130px;
+        right: 130px;
+    }
+
+    li.padding_for_dropdown {
+        padding: 0;
+    }
+
+    .menu1 li {
+        padding-top: 20px;
+    }
+
+    .cake1 {
+        flex-direction: column;
+    }
+    .wrapper {
+        width: auto;
+    }
+
+    .popup {
+        top: -20000px;
+    }
+
+}
+
+@media screen and (min-width:481px)
+and (max-width: 798px) {
+
+    body {
+        font-size: 1.05em;
+    }
+
+    .cake1 {
+        flex-direction: column;
+    }
+    .menu1 {
+        height:auto;
+        flex-wrap: wrap;
+    }
+    .cheese_classicNY img, .cheese_blueberries1 img, .cheese_exotic1 img
+    {
+        max-width: 100%;
+        height: auto;
+    }
+
+}
+
+@media screen and (min-width: 799px)
+and (max-width: 960px) {
+
+    body {
+        font-size: 1.05em;
+    }
+
+    .cake1 {
+        flex-direction: column;
+    }
+
+
+    .cheese_classicNY img, .cheese_blueberries1 img, .cheese_exotic1 img
+    {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 961px)
+and (max-width: 1200px) {
+
+    .cake1 {
+        flex-direction: column;
+    }
+
+    .cheese_classicNY img, .cheese_blueberries1 img, .cheese_exotic1 img
+    {
+        max-width: 100%;
+        height: auto;
+    }
+}

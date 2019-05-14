@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/page3_order.css">
+</head>
+<body>
+<ul class="border menu1">
+    <li>
+        <a href="page1_flex.html"><strong><i>ГЛАВНАЯ</i></strong></a>
+    </li>
+    <li class="padding_for_dropdown">
+        <a href="#"><strong><i>О НАС</i></strong></a>
+        <ul class="dropdown1">
+            <li class="padding"><a href="#"><strong><i>Команда</i></strong></a></li>
+            <li class="padding"><a href="#"><strong><i>История</i></strong></a></li>
+            <li class="padding"><a href="#"><strong><i>Планы</i></strong></a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="#"><strong><i>ЗАКАЗАТЬ</i></strong></a>
+    </li>
+    <li>
+        <a href="#"><strong><i>ОТЗЫВЫ</i></strong></a>
+    </li>
+    <li>
+        <a href="#"><strong><i>КОНТАКТЫ</i></strong></a>
+    </li>
+    <li class="padding_for_dropdown">
+        <a href="#"><strong><i>РЕЦЕПТЫ</i></strong></a>
+        <ul class="dropdown2">
+            <li class="padding"><a href="#"><strong><i>Торты</i></strong></a></li>
+            <li class="padding"><a href="#"><strong><i>Капкейки</i></strong></a></li>
+            <li class="padding"><a href="#"><strong><i>Чизкейки</i></strong></a></li>
+            <li class="padding"><a href="#"><strong><i>Выпечка</i></strong></a></li>
+        </ul>
+    </li>
+</ul>
+
+
+<div class="border logotype">
+    <a href="page1_flex.html"><h1><strong><i>Anna cakes</i></strong></h1></a>
+</div>
+
+<div class="logotype2">
+    <a href="page2_cakes.html"> <h1><strong><i>Заказ</i></strong></h1></a>
+</div>
+
+
+<!--ORDER-->
+<div id="contacts" class="border">
+        <label for="text1">
+            Фамилия*
+            <div class="input">
+                <input type="text" id="text1" required>
+            </div>
+        </label>
+    <label for="text2">
+        Имя*
+        <div class="input">
+            <input type="text" id="text2" required>
+        </div>
+    </label>
+    <label for="text3">
+        Контактный телефон*
+        <div class="input">
+            <input type="tel" id="text3" required>
+        </div>
+    </label>
+    <label for="text4">
+        Email
+        <div class="input">
+            <input type="email" id="text4">
+        </div>
+    </label>
+    <label for="text5" class="margin_delivery">
+        Доставка или самовывоз
+        <div class="input">
+            <input type="text" id="text5" required>
+        </div>
+    </label>
+</div>
+
+<div id="order_main" >
+        <div id="order_cake" >
+           <div class="description ">
+               <h2><strong><i>Торты</i></strong></h2>
+           </div>
+            <div class="description ">
+                <h2><strong><i>Название и картинка Торта, которая подгрузится в это окно при выборе из каталога</i></strong></h2>
+            </div>
+                    <div class="description border ">
+                            <label for="quantity1">
+                                <i>Количество</i>
+                                <select required id="quantity1">
+                                    <option>1 шт</option>
+                                    <option>2 шт</option>
+                                    <option>3 шт</option>
+                                    <option>4 шт</option>
+                                    <option>5 шт</option>
+                                    <option>6 шт</option>
+                                    <option>7 шт</option>
+                                    <option>8 шт</option>
+                                    <option>9 шт</option>
+                                    <option>10 шт</option>
+                                    <option>11 шт</option>
+                                    <option>12 шт</option>
+                                </select>
+                            </label>
+
+                    </div>
+                    <div class="description border ">
+                        <label for="text6">
+                            <i>Пожелания по оформлению торта</i>
+                                <div class="input">
+                                    <textarea type="text" id="text6" cols="40" rows="5" wrap="soft">
+                                    </textarea>
+                                </div>
+                        </label>
+                    </div>
+            <div class="description border">
+                <p><strong><i>Стоимость: руб/кг</i></strong></p>
+                <p class="weight">от 1.5 кг</p>
+            </div>
+            <div class="submit1 border">
+                <input type="submit" value="Заказать">
+            </div>
+        </div>
+        <div id="order_cupcake" >
+            <div class="description ">
+                <h2><strong><i>Чизкейки</i></strong></h2>
+            </div>
+            <div class="description ">
+                <h2><strong><i>Название и картинка Чизкейка, которая подгрузится в это окно при выборе из каталога</i></strong></h2>
+            </div>
+            <div class="description border">
+                <label for="quantity2">
+                    <i>Количество</i>
+                    <select required id="quantity2">
+                        <option>1 шт</option>
+                        <option>2 шт</option>
+                        <option>3 шт</option>
+                        <option>4 шт</option>
+                        <option>5 шт</option>
+                        <option>6 шт</option>
+                        <option>7 шт</option>
+                        <option>8 шт</option>
+                        <option>9 шт</option>
+                        <option>10 шт</option>
+                        <option>11 шт</option>
+                        <option>12 шт</option>
+                    </select>
+                </label>
+            </div>
+            <div class="description border">
+                <label for="text7">
+                    <i>Пожелания по оформлению чизкейка</i>
+                    <div class="input">
+                        <textarea type="text" id="text7" cols="40" rows="5" wrap="soft">
+                        </textarea>
+                    </div>
+                </label>
+            </div>
+            <div class="description border">
+                <p><strong><i>Стоимость: руб/кг</i></strong></p>
+                <p class="weight">от 1.5 кг</p>
+            </div>
+            <div class="submit1 border">
+                <input type="submit" value="Заказать">
+            </div>
+        </div>
+        <div id="order_cheesecake" >
+            <div class="description ">
+                <h2><strong><i>Капкейки</i></strong></h2>
+            </div>
+            <div class="description ">
+                <h2><strong><i>Название и картинка Капкейков, которая подгрузится в это окно при выборе из каталога</i></strong></h2>
+            </div>
+            <div class="description border ">
+                <label for="quantity3">
+                    <i>Количество </i>
+                    <select required id="quantity3">
+                        <option>6 шт</option>
+                        <option>9 шт</option>
+                        <option>12 шт</option>
+                    </select>
+                </label>
+            </div>
+            <div class="description border ">
+                <label for="text8">
+                    <i>Пожелания по оформлению капкейков</i>
+                    <div class="input">
+                        <textarea type="text" id="text8" cols="40" rows="5" wrap="soft">
+                        </textarea>
+                    </div>
+                </label>
+            </div>
+            <div class="description border">
+                <p><strong><i>Стоимость: руб/кг</i></strong></p>
+                <p class="weight">от 6 шт</p>
+            </div>
+            <div class="submit1 border">
+                <input type="submit" value="Заказать">
+            </div>
+        </div>
+        <div id="order_bakery">
+            <div class="description ">
+                <h2><strong><i>Выпечка</i></strong></h2>
+            </div>
+            <div class="description ">
+                <h2><strong><i>Название и картинка Выпечки, которая подгрузится в это окно при выборе из каталога</i></strong></h2>
+            </div>
+            <div class="description border">
+                <label for="quantity4">
+                    <i>Количество</i>
+                    <select required id="quantity4">
+                        <option>1 шт</option>
+                        <option>2 шт</option>
+                        <option>3 шт</option>
+                        <option>4 шт</option>
+                        <option>5 шт</option>
+                        <option>6 шт</option>
+                        <option>7 шт</option>
+                        <option>8 шт</option>
+                        <option>9 шт</option>
+                        <option>10 шт</option>
+                        <option>11 шт</option>
+                        <option>12 шт</option>
+                    </select>
+                </label>
+            </div>
+            <div class="description border ">
+                <label for="text9">
+                    <i>Пожелания по оформлению Выпечки</i>
+                    <div class="input">
+                        <textarea type="text" id="text9" cols="40" rows="5" wrap="soft">
+                        </textarea>
+                    </div>
+                </label>
+            </div>
+            <div class="description border">
+                <p><strong><i>Стоимость: руб/кг</i></strong></p>
+                <p class="weight">от 1.5 кг</p>
+            </div>
+            <div class="submit1 border">
+                <input type="submit" value="Заказать" >
+            </div>
+        </div>
+</div>
+
+<div class="background">
+    <footer class="border footer">
+        <a href="#" class="vkontakte"><img src="image/main_menu/vkontakte.png"></a>
+        <a href="#" class="instagram"><img src="image/main_menu/instagram.png"></a>
+    </footer>
+
+
+    <div class="footer2">
+        <div class="wrapper">
+            <input type="checkbox" id="modal1">
+            <label class="btn" for="modal1">Заказать звонок</label>
+
+            <form action="" class="popup">
+                <span>Введите ваши данные</span>
+                <input type="text" required placeholder="Имя">
+                <input type="text"required placeholder="Телефон">
+                <input type="submit" class="submit">
+                <label class="close" for="modal1">+</label>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

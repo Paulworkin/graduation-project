@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/page1_flex.css">
+</head>
+<body>
+
+
+<ul class="border menu1">
+    <li>
+        <a href="page1_flex.html"><strong><i>ГЛАВНАЯ</i></strong></a>
+    </li>
+    <li class="padding_for_dropdown">
+        <a href="#"><strong><i>О НАС</i></strong></a>
+        <ul class="dropdown1">
+            <li class="padding"><a href="#"><strong><i>Команда</i></strong></a></li>
+            <li class="padding"><a href="#"><strong><i>История</i></strong></a></li>
+            <li class="padding"><a href="#"><strong><i>Планы</i></strong></a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="#"><strong><i>ЗАКАЗАТЬ</i></strong></a>
+    </li>
+    <li>
+        <a href="#"><strong><i>ОТЗЫВЫ</i></strong></a>
+    </li>
+    <li>
+        <a href="#"><strong><i>КОНТАКТЫ</i></strong></a>
+    </li>
+    <li class="padding_for_dropdown">
+        <a href="#"><strong><i>РЕЦЕПТЫ</i></strong></a>
+        <ul class="dropdown2">
+            <li class="padding"><a href="#"><strong><i>Торты</i></strong></a></li>
+            <li class="padding"><a href="#"><strong><i>Капкейки</i></strong></a></li>
+            <li class="padding"><a href="#"><strong><i>Чизкейки</i></strong></a></li>
+            <li class="padding"><a href="#"><strong><i>Выпечка</i></strong></a></li>
+        </ul>
+    </li>
+</ul>
+
+
+<div class="border logotype">
+    <a href="page1_flex.html"><h1><strong><i>Anna cakes</i></strong></h1></a>
+</div>
+
+<div class="border container">
+    <div class="border menu2">
+        <a href="page2_cakes.html" class="center"><i>Торты</i></a>
+        <a href="page2_cakes.html" class="flex-center"><img src="image/main_menu/picnic.png"></a>
+    </div>
+    <div class="border menu2">
+        <a href="page3_cupcake.html" class="center"><i>Капкейки</i></a>
+        <a href="page3_cupcake.html" class="flex-center"><img src="image/main_menu/cupcakes.png"></a>
+    </div>
+    <div class="border menu2">
+        <a href="page4_cheesecake.html" class="center"><i>Чизкейки</i></a>
+        <a href="page4_cheesecake.html" class="flex-center"><img src="image/main_menu/cheese.png"></a>
+    </div>
+    <div class="border menu2">
+        <a href="page5_bakery.html" class="center"><i>Выпечка</i></a>
+        <a href="page5_bakery.html" class="flex-center"><img src="image/main_menu/bakery.png"></a>
+    </div>
+</div>
+
+
+<div class="background">
+    <footer class="border footer">
+            <a href="#" class="vkontakte"><img src="image/main_menu/vkontakte.png"></a>
+            <a href="#" class="instagram"><img src="image/main_menu/instagram.png"></a>
+    </footer>
+
+
+    <div class="footer2">
+        <div class="wrapper">
+            <input type="checkbox" id="modal1">
+            <label class="btn" for="modal1">Заказать звонок</label>
+
+            <form action="" class="popup">
+                <span>Введите ваши данные</span>
+                <input type="text" required placeholder="Имя">
+                <input type="text"required placeholder="Телефон">
+                <input type="submit" class="submit">
+                <label class="close" for="modal1">+</label>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="js/page5_modal_formhandler.js"></script>
+
+</body>
+</html>
